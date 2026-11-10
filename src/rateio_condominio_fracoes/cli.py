@@ -6,6 +6,18 @@ import sys
 from pathlib import Path
 from typing import Dict
 
+# Assegura suporte a UTF-8 no console mesmo em Windows com charmap/cp1252
+if hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+if hasattr(sys.stderr, "reconfigure"):
+    try:
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 from . import __version__
 from .core import formatar_moeda_centavos, validar_e_processar_rateio
 from .errors import RateioError

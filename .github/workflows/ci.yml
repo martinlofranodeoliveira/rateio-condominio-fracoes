@@ -35,8 +35,11 @@ jobs:
       - name: Executar suíte unittest
         env:
           PYTHONPATH: src
+          PYTHONIOENCODING: utf-8
         run: python -m unittest discover -s tests -v
       - name: Executar verificador independente SQLite
+        env:
+          PYTHONIOENCODING: utf-8
         run: python tools/verify_independent.py
 
   distribution:

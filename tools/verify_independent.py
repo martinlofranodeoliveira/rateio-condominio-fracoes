@@ -13,6 +13,18 @@ import zipfile
 from fractions import Fraction
 from pathlib import Path
 
+# Assegura suporte a UTF-8 no console mesmo em Windows com charmap/cp1252
+if hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+if hasattr(sys.stderr, "reconfigure"):
+    try:
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 
 def verificar_pacote_zip(caminho_zip: Path) -> bool:
     print(f"=== Auditoria Independente: {caminho_zip.name} ===")
@@ -236,6 +248,7 @@ def main() -> int:
         ]
         env = os.environ.copy()
         env["PYTHONPATH"] = "src"
+        env["PYTHONIOENCODING"] = "utf-8"
         res = subprocess.run(cmd, env=env, capture_output=True, text=True)
         if res.returncode != 0:
             print(f"[ERRO] Falha ao gerar pacote de demonstração: {res.stderr}", file=sys.stderr)
