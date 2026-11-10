@@ -1,0 +1,391 @@
+{
+  "condominio": {
+    "competencia": "2026-11",
+    "nome": "Edifício Residencial Horizonte"
+  },
+  "despesas_ordinarias": [
+    {
+      "categoria": "pessoal",
+      "descricao": "Folha de Pagamento Portaria e Limpeza",
+      "id": "DESP-01",
+      "valor_centavos": 1850000
+    },
+    {
+      "categoria": "pessoal",
+      "descricao": "Encargos Sociais e Benefícios",
+      "id": "DESP-02",
+      "valor_centavos": 740000
+    },
+    {
+      "categoria": "manutencao",
+      "descricao": "Contrato de Manutenção de Elevadores",
+      "id": "DESP-03",
+      "valor_centavos": 235000
+    },
+    {
+      "categoria": "consumo",
+      "descricao": "Energia Elétrica Áreas Comuns",
+      "id": "DESP-04",
+      "valor_centavos": 348920
+    },
+    {
+      "categoria": "seguros",
+      "descricao": "Seguro Predial Contra Incêndio",
+      "id": "DESP-05",
+      "valor_centavos": 89450
+    },
+    {
+      "categoria": "administracao",
+      "descricao": "Honorários de Administração e Software",
+      "id": "DESP-06",
+      "valor_centavos": 180000
+    },
+    {
+      "categoria": "materiais",
+      "descricao": "Produtos de Limpeza e Jardinagem",
+      "id": "DESP-07",
+      "valor_centavos": 95400
+    }
+  ],
+  "fundos": [
+    {
+      "descricao": "Fundo de Reserva Ordinário (5%)",
+      "id": "FUNDO-RESERVA",
+      "percentual_denominador": 100,
+      "percentual_numerador": 5,
+      "tipo": "percentual_ordinarias"
+    },
+    {
+      "descricao": "Fundo de Obras para Modernização dos Portões",
+      "id": "FUNDO-OBRAS",
+      "tipo": "valor_fixo_global",
+      "valor_centavos": 350000
+    }
+  ],
+  "medicoes": [
+    {
+      "consumo_fatura": 320,
+      "leituras": [
+        {
+          "leitura_anterior": 140,
+          "leitura_atual": 154,
+          "unidade_id": "APTO-101"
+        },
+        {
+          "leitura_anterior": 98,
+          "leitura_atual": 110,
+          "unidade_id": "APTO-102"
+        },
+        {
+          "leitura_anterior": 210,
+          "leitura_atual": 228,
+          "unidade_id": "APTO-201"
+        },
+        {
+          "leitura_anterior": 155,
+          "leitura_atual": 169,
+          "unidade_id": "APTO-202"
+        },
+        {
+          "leitura_anterior": 300,
+          "leitura_atual": 315,
+          "unidade_id": "APTO-301"
+        },
+        {
+          "leitura_anterior": 80,
+          "leitura_atual": 92,
+          "unidade_id": "APTO-302"
+        },
+        {
+          "leitura_anterior": 190,
+          "leitura_atual": 208,
+          "unidade_id": "APTO-401"
+        },
+        {
+          "leitura_anterior": 115,
+          "leitura_atual": 126,
+          "unidade_id": "APTO-402"
+        },
+        {
+          "leitura_anterior": 250,
+          "leitura_atual": 268,
+          "unidade_id": "APTO-501"
+        },
+        {
+          "leitura_anterior": 130,
+          "leitura_atual": 144,
+          "unidade_id": "APTO-502"
+        },
+        {
+          "leitura_anterior": 175,
+          "leitura_atual": 189,
+          "unidade_id": "APTO-601"
+        },
+        {
+          "leitura_anterior": 105,
+          "leitura_atual": 118,
+          "unidade_id": "APTO-602"
+        },
+        {
+          "leitura_anterior": 220,
+          "leitura_atual": 236,
+          "unidade_id": "APTO-701"
+        },
+        {
+          "leitura_anterior": 140,
+          "leitura_atual": 152,
+          "unidade_id": "APTO-702"
+        },
+        {
+          "leitura_anterior": 185,
+          "leitura_atual": 201,
+          "unidade_id": "APTO-801"
+        },
+        {
+          "leitura_anterior": 160,
+          "leitura_atual": 174,
+          "unidade_id": "APTO-802"
+        },
+        {
+          "leitura_anterior": 410,
+          "leitura_atual": 435,
+          "unidade_id": "COB-901"
+        },
+        {
+          "leitura_anterior": 380,
+          "leitura_atual": 402,
+          "unidade_id": "COB-902"
+        }
+      ],
+      "servico": "agua",
+      "unidade_medida": "m3",
+      "valor_fatura_concessionaria_centavos": 465890
+    },
+    {
+      "consumo_fatura": 140,
+      "leituras": [
+        {
+          "leitura_anterior": 50,
+          "leitura_atual": 56,
+          "unidade_id": "APTO-101"
+        },
+        {
+          "leitura_anterior": 40,
+          "leitura_atual": 45,
+          "unidade_id": "APTO-102"
+        },
+        {
+          "leitura_anterior": 72,
+          "leitura_atual": 80,
+          "unidade_id": "APTO-201"
+        },
+        {
+          "leitura_anterior": 60,
+          "leitura_atual": 67,
+          "unidade_id": "APTO-202"
+        },
+        {
+          "leitura_anterior": 95,
+          "leitura_atual": 102,
+          "unidade_id": "APTO-301"
+        },
+        {
+          "leitura_anterior": 35,
+          "leitura_atual": 40,
+          "unidade_id": "APTO-302"
+        },
+        {
+          "leitura_anterior": 68,
+          "leitura_atual": 76,
+          "unidade_id": "APTO-401"
+        },
+        {
+          "leitura_anterior": 45,
+          "leitura_atual": 50,
+          "unidade_id": "APTO-402"
+        },
+        {
+          "leitura_anterior": 80,
+          "leitura_atual": 88,
+          "unidade_id": "APTO-501"
+        },
+        {
+          "leitura_anterior": 55,
+          "leitura_atual": 61,
+          "unidade_id": "APTO-502"
+        },
+        {
+          "leitura_anterior": 62,
+          "leitura_atual": 69,
+          "unidade_id": "APTO-601"
+        },
+        {
+          "leitura_anterior": 48,
+          "leitura_atual": 53,
+          "unidade_id": "APTO-602"
+        },
+        {
+          "leitura_anterior": 70,
+          "leitura_atual": 78,
+          "unidade_id": "APTO-701"
+        },
+        {
+          "leitura_anterior": 52,
+          "leitura_atual": 58,
+          "unidade_id": "APTO-702"
+        },
+        {
+          "leitura_anterior": 65,
+          "leitura_atual": 72,
+          "unidade_id": "APTO-801"
+        },
+        {
+          "leitura_anterior": 58,
+          "leitura_atual": 65,
+          "unidade_id": "APTO-802"
+        },
+        {
+          "leitura_anterior": 110,
+          "leitura_atual": 122,
+          "unidade_id": "COB-901"
+        },
+        {
+          "leitura_anterior": 100,
+          "leitura_atual": 111,
+          "unidade_id": "COB-902"
+        }
+      ],
+      "servico": "gas",
+      "unidade_medida": "m3",
+      "valor_fatura_concessionaria_centavos": 198540
+    }
+  ],
+  "unidades": [
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-101",
+      "proprietario": "Ana Lima"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-102",
+      "proprietario": "Bruno Castro"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-201",
+      "proprietario": "Carla Dias"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-202",
+      "proprietario": "Diego Souza"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-301",
+      "proprietario": "Eduardo Silva"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-302",
+      "proprietario": "Fernanda Rosa"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-401",
+      "proprietario": "Gabriel Melo"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-402",
+      "proprietario": "Helena Prado"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-501",
+      "proprietario": "Igor Santos"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-502",
+      "proprietario": "Juliana Costa"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-601",
+      "proprietario": "Katia Moreira"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-602",
+      "proprietario": "Lucas Rocha"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-701",
+      "proprietario": "Mariana Ribeiro"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-702",
+      "proprietario": "Nelson Pires"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-801",
+      "proprietario": "Otavio Farias"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 45231,
+      "id": "APTO-802",
+      "proprietario": "Patricia Gomes"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 138152,
+      "id": "COB-901",
+      "proprietario": "Quintino Alcantara"
+    },
+    {
+      "bloco": "A",
+      "fracao_ideal_denominador": 1000000,
+      "fracao_ideal_numerador": 138152,
+      "id": "COB-902",
+      "proprietario": "Renata Vianna"
+    }
+  ]
+}
